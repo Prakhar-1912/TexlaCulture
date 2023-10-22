@@ -5,7 +5,7 @@ import {GiUsaFlag} from "react-icons/gi";
 import  profile  from "../assests/profile.png";
 const Header = () => {
   return (
-    <div className="flex justify-between items-center shadow-lg h-[70px] px-[25px]">
+    <div className="flex justify-between items-center shadow-lg h-[50px] px-[25px]">
       <div className="flex items-center rounded-[5px]">
         <FaSearch />
         <input
