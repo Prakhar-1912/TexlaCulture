@@ -17,8 +17,8 @@ const Body = () => {
   }
 
   return (
-    <div  className="pt-[25px] px-[25px]">
-      <div className="pb-[10px]">
+    <div  className="pt-[15px] px-[25px]">
+      <div className="pb-[5px]">
         <h1 className="text-[24px] leading-[34px] font-semibold cursor-pointer">
           Client Managment
         </h1>

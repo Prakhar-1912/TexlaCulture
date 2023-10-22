@@ -5,10 +5,10 @@ import RegionalMetrics from "./RegionalMetrics";
 const DashBoard = () => {
   return (
     <div>
-      <div className="flex gap-[10px] mt-[25px] pb-[2px]">
+      <div className="flex gap-[10px] mt-[15px] pb-[2px]">
         <div className="w-[45%] h-[150px] cursor-pointer transform hover:scale-[103%] transition duration-300 ease-out">
           <h1 className="pl-[15px]">key Performance Indicator</h1>
-          <div className="grid grid-cols-3 gap-[15px] mt-[25px] p-[15px]  bg-white rounded-[8px] shadow-lg ">
+          <div className="grid grid-cols-3 gap-[15px] mt-[15px] p-[15px]  bg-white rounded-[8px] shadow-lg ">
             <div className="border-l-[4px] border-purple-600 pl-[8px]">
               <h1 className="text-sm">Client Retention Rate</h1>
               <p>55%</p>
@@ -26,7 +26,7 @@ const DashBoard = () => {
 
         <div className=" w-[30%] h-[150px] cursor-pointer transform hover:scale-[103%] transition duration-300 ease-out">
           <h1 className="pl-[15px]">Companies Status</h1>
-          <div className="grid grid-cols-3 mt-[25px] p-[15px]  bg-white rounded-[8px] shadow-lg">
+          <div className="grid grid-cols-3 mt-[15px] p-[15px]  bg-white rounded-[8px] shadow-lg">
             <div className="border-l-[4px] border-purple-600 pl-[8px]">
               <h1 className="text-sm">Total</h1>
               <p>20</p>
@@ -44,7 +44,7 @@ const DashBoard = () => {
         <div className="w-[25%] h-[150px] cursor-pointer transform hover:scale-[103%] transition duration-300 ease-out">
           <h1 className="pl-[15px]">Active User Base</h1>
           <div className=" bg-white rounded-[8px] shadow-lg">
-            <div className="grid grid-cols-2 mt-[15px] p-[10px] ">
+            <div className="grid grid-cols-2 mt-[15px] py-[5px] px-[10px]">
               <div className="flex">
                 <span className="bg-blue-800 rounded-full text-blue-800">
                   raja

@@ -18,8 +18,8 @@ const Sidebar = () => {
         <p className="text-base">GENERAL</p>
       </div>
 
-      <div className="flex items-center justify-between gap-[10px] py-[15px] cursor-pointer">
-        <div className="flex items-center gap-[15px]">
+      <div className="flex items-center justify-between gap-[10px] py-[15px] cursor-pointer bg-[#3366FF14] rounded-lg">
+        <div className="flex items-center gap-[15px] ">
           <TfiDashboard size={"1.5rem"} />
           <p className="text-lg"> Dashboard</p>
         </div>
